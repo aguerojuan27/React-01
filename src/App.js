@@ -1,5 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
+import Noticia from './components/noticia'
+//importar otra hoja de estilo propia
+
+
 
 function App() {
   return (
@@ -18,6 +22,8 @@ function App() {
           Learn React
         </a>
       </header>
+
+      <Noticia> </Noticia>
     </div>
   );
 }
